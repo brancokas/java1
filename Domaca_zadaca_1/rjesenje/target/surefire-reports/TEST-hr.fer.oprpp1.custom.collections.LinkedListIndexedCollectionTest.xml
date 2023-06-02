@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="41" failures="0" name="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" time="0.009" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="19"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/19/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/bstankovic/Documents/FER/Nastava/Java_1/Domaca_zadaca_1/rjesenje"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="HR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/bstankovic/Documents/FER/Nastava/Java_1/Domaca_zadaca_1/rjesenje"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="19"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/8q/9ytxkyyj6hn1693w1k1jh1d80000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/bstankovic/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="13.0"/>
+    <property name="library.jansi.path" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/bstankovic"/>
+    <property name="user.timezone" value="Europe/Zagreb"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="bstankovic"/>
+    <property name="java.class.path" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/19/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="maven.home" value="/opt/homebrew/Cellar/maven/3.8.6/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-09-20"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+  </properties>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testIndexOfFirstOccuranceInList" time="0.003"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testClearListSize" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveElementFromListToBeEmpty" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testContainsElement" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testGetLastElement" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testToArray" time="0.001"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testConstructorPassNullCollectionException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testInsertTooGreatIndexException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testAddAllNullCollectionException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveAtNullListException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testDoesntContainNullInEmptyList" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveAtEnd" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testGetElementTooGreatIndexException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveNullFromNullList" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testClearList" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testInsertNullException" time="0.001"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testIndexOfNullList" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testGetFirstElement" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testInsertAtEndOfList" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveAtOnlyElement" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testClearRemoveNull" time="0.001"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveAt" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testDoesntContainElement" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testConstructorPassCollection" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testInsertTooSmallIndexException" time="0.001"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testClearRemoveException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testAddNullValueException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveAtIndexUnderListBoundException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testInsertAtBeginningOfList" time="0.001"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testGetElementTooSmallIndexException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveAtBeginning" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testSizeOfList" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveAtIndexOverListBoundException" time="0.001"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testAddAllToListWithValues" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testRemoveElement" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testAddAllNullCollectionToListWithValuesException" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testAddAllToEmptyList" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testIndexOfNullInClearedList" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testIndexOfFirstElement" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testIndexOfLastElement" time="0"/>
+  <testcase classname="hr.fer.oprpp1.custom.collections.LinkedListIndexedCollectionTest" name="testDefaultConstructor" time="0"/>
+</testsuite>
